@@ -54,6 +54,7 @@ function LoginForm({ onAlternarModo }) {
           id="login-email"
           name="email"
           type="email"
+          placeholder='Digite seu e-mail'
           value={email}
           onChange={(event) => {
             setEmail(event.target.value);
@@ -73,6 +74,7 @@ function LoginForm({ onAlternarModo }) {
           name="senha"
           type="password"
           value={senha}
+          placeholder='Digite sua senha'
           onChange={(event) => {
             setSenha(event.target.value);
             limparErro('senha');

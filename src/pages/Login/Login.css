@@ -1,21 +1,32 @@
-/* Página de Login/Cadastro */
-/* Observação: nenhum estilo aplicado — estrutura pronta para estilização. */
 
-/* Referências visuais (página FaleConosco):
-   - .login-card: card principal branco, como .contact-form-card (ContactForm.css)
-*/
+.login-section {
+  position: relative;
+  margin-top: 0;
+  padding: 48px 0;
+  width: 100%;
+    
+}
 
-/* Card principal branco (todo o conteúdo de login e cadastro) */
-.login-card {}
+.login-wrapper {
+  display: flex;
+  justify-content: center;
+  
+}
 
-/* Estrutura da página */
-.login-section {}
-.login-wrapper {}
+.login-wrapper:has(.login-benefits-card) {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr)minmax(0, 0.85fr);
+  gap: 48px;
+  align-items: stretch;
+}
 
-/* Estilos compartilhados */
-.form-field {}
-.form-error {}
-.form-submit {}
-.login-alternar {}
-.login-link {}
+.login-card {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
 

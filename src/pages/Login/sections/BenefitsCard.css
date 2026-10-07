@@ -1,10 +1,95 @@
 /* Banner lateral de benefícios da página de Login/Cadastro */
 /* Observação: nenhum estilo aplicado — estrutura pronta para estilização. */
 
-.login-benefits-card {}
-.login-benefits-card-icone {}
-.login-benefits-card-title {}
-.login-benefits-list {}
-.login-benefit-item {}
-.login-benefit-icone {}
-.login-benefits-card-nota {}
+.login-benefits-card {
+    padding: 40px 32px 32px;
+    border-radius: 20px;
+    background: linear-gradient(160deg, #e8f1e3 0%, #dfeadb 100%);
+    color: var(--color-verde-institucional-escuro, #0b3d24);
+    font-family: var(--fonte-texto);
+    display: flex;
+    flex-direction: column;
+
+}
+
+.login-benefits-card-icone {
+    display: inline-flex;
+    margin-bottom: 16px;
+    color: var(--color-verde-institucional-escuro, #0b3d24);
+}
+
+.login-benefits-card-icone svg {
+    width: 40px;
+    height: 40px;
+}
+
+.login-benefits-card-title {
+    margin-bottom: 28px;
+    font-family: var(--fonte-titulos);
+    font-size: clamp(1.7rem, 2.6vw, 2.2rem);
+    line-height: 1.1;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+}
+
+.login-benefits-list {
+    list-style: none;
+    margin: 0;
+    padding: 8;
+}
+
+.login-benefit-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(11, 61, 36, 0.12);
+}
+
+.login-benefit-item:first-child {
+    padding-top: 0;
+}
+
+.login-benefit-icone {
+    flex: 0 0 56px;
+    width: 56px;
+    height: 56px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.55);
+    color: var(--color-verde-institucional-escuro);
+}
+
+.login-benefit-icone svg {
+    width: 28px;
+    height: 28px;
+}
+
+.login-benefit-item h3 {
+  margin: 0 0 4px;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.login-benefit-item p {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: var(--color-verde-bioloop);
+}
+
+
+.login-benefits-card-nota {
+    position: relative;
+    max-width: 16ch;
+    margin: auto;
+    padding-bottom: 14px;
+    font-family: 'Caveat', 'Segoe Script', cursive;
+    font-size: 1.9rem;
+    line-height: 1.1;
+    font-weight: 600;
+    color: var(--color-verde-institucional-escuro, #0b3d24);
+    transform: rotate(-4deg);
+}

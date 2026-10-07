@@ -1,9 +1,39 @@
-/* Seção de topo da página de Login/Cadastro */
-/* Observação: nenhum estilo aplicado — estrutura pronta para estilização. */
 
-.login-hero {}
-.login-hero-inner {}
-.login-hero-text {}
-.login-hero-title {}
-.login-hero-subtitle {}
-.login-hero-image {}
+.login-hero-image {
+  position: relative;
+  overflow: hidden;
+  min-height: 340px;
+  display: flex;
+  align-items: center;
+  padding-block: 76px 82px;
+  color: var(--color-branco);
+  background:
+    linear-gradient(90deg,
+      rgba(5, 50, 28, 0.93) 0%,
+      rgba(0, 107, 53, 0.82) 40%,
+      rgba(0, 107, 53, 0.35) 74%,
+      rgba(0, 107, 53, 0.18) 100%),
+    url('../../../assets/images/mao-no-solo.jpg') center / cover no-repeat;
+
+}
+.section-eyebrow{
+  color: var(--color-creme-principal);
+}
+
+.login-hero-title {
+  max-width: 640px;
+  font-size: clamp(2.2rem, 4.4vw, 3.4rem);
+  line-height: 1.05;
+  font-family: var(--fonte-titulos);
+  letter-spacing: -0.03em;
+  font-weight: 700;
+  margin: 16px 0 16px;
+}
+
+.login-hero-subtitle {
+  font-family: var(--fonte-texto);
+  max-width: 52ch;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+

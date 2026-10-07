@@ -1,5 +1,38 @@
-/* Formulário de Entrar */
 
-.login-form {}
-.login-form-title {}
+.login-form {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #d8e0d6;
+    border-radius: var(--radius-md);
+    padding: 15px;
+    width: 100%;
+    
+    max-width: 800px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    background-color: var(--color-branco);
+    z-index: 2;
+    
+}
 
+.login-form-title {
+    font-family: var(--fonte-titulos);
+    font-size: 1.7rem;
+
+}
+
+.form-field {
+    margin-bottom: 10px;
+}
+
+.btn-primary {
+    margin-bottom: 8px;
+    font-family: var(--fonte-texto);
+    margin-top: 10px;
+}
+
+.form-field {
+    font-family: var(--fonte-texto);
+    font-size: 1rem;
+    margin-top: 10px;
+}

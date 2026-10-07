@@ -4,6 +4,7 @@ import './LoginHero.css';
 function LoginHero() {
   return (
     <section className="login-hero">
+      <div className="login-hero-image">
       <div className="container login-hero-inner">
         <div className="login-hero-text">
           <span className="section-eyebrow">FAÇA PARTE DESSA TRANSFORMAÇÃO</span>
@@ -13,12 +14,6 @@ function LoginHero() {
             conectam cooperativas, produtores e o mercado de carbono.
           </p>
         </div>
-
-        <div className="login-hero-image">
-          <img
-            src={maoNoSolo}
-            alt="Mãos segurando solo com uma muda de planta"
-          />
         </div>
       </div>
     </section>

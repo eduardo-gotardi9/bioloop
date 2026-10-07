@@ -18,14 +18,11 @@ function Login() {
 
   return (
     <>
-      {/* Seção de topo — apenas na tela de cadastro */}
-      {mode === 'cadastro' && <LoginHero />}
-
+      <LoginHero />
       <section className="login-section">
         <div className="container login-wrapper">
-          {/* Banner lateral de benefícios — apenas na tela de cadastro, à esquerda do card */}
+          {/* Banner lateral de benefícios — apenas na tela de cadastro */}
           {mode === 'cadastro' && <BenefitsCard />}
-
           <div className="login-card">
             {mode === 'login' ? (
               <LoginForm onAlternarModo={alternarModo} />
@@ -33,8 +30,9 @@ function Login() {
               <CadastroForm onAlternarModo={alternarModo} />
             )}
           </div>
-        </div>
-      </section>
+         
+      </div>
+    </section >
     </>
   );
 }

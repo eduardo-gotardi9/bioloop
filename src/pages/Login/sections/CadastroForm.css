@@ -1,12 +1,71 @@
-/* Formulário de Criar conta */
-/* Observação: nenhum estilo aplicado — estrutura pronta para estilização. */
+.login-publico-toggle {
+    display: flex;
+    gap: 10px;
+    background: var(--color-creme-principal);
+    border-radius: var(--radius-md);
+    padding: 6px;
+    margin-top: 10px;
+}
 
-.cadastro-form {}
-.cadastro-form-title {}
-.cadastro-form-subtitle {}
+.login-publico-btn {
+    flex: 1 1 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 10px 12px;
+    border: none;
+    border-radius: var(--radius-sm);
+    background: transparent;
+    color: var(--color-texto-secundario);
+    font-size: 0.85rem;
+    font-weight: 600;
+    transition: background-color 0.15s ease, color 0.15s ease;
+}
 
-/* Alternância de público no topo do cadastro (como .tipo-toggle do ContactForm) */
-.login-publico-toggle {}
-.login-publico-btn {}
-.login-publico-btn-active {}
+.login-publico-btn svg {
+    width: 21px;
+    height: 21px;
+    stroke-width: 2;
+}
 
+.login-publico-btn-active {
+    background: var(--color-verde-bioloop);
+    color: var(--color-branco);
+}
+
+.cadastro-form {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    border: 1px solid #d8e0d6;
+    border-radius: var(--radius-md);
+    padding: 15px;
+    flex: 1;
+    margin: 0;
+    background-color: var(--color-branco);
+}
+
+.cadastro-form-title {
+    font-family: var(--fonte-titulos);
+    font-size: 1.7rem;
+    color: var(--color-verde-institucional-escuro);
+}
+
+.cadastro-form-subtitle {
+    font-family: var(--fonte-texto);
+    font-size: 1.1rem;
+    margin-top: 5px;
+}
+
+.login-alternar {
+    font-family: var(--fonte-texto);
+    font-size: 1.1rem;
+}
+
+.login-link {
+    width: 100px;
+    border-radius: var(--radius-pill);
+    border: 1px solid #d8e0d6;
+
+}

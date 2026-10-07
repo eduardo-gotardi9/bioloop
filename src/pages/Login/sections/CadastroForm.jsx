@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Icon from '../../../components/Icon/Icon';
 import './CadastroForm.css';
 
+
 function CadastroForm({ onAlternarModo }) {
   const [tipoPublico, setTipoPublico] = useState('cooperativa');
   const [tipoCadastro, setTipoCadastro] = useState('');
