@@ -1,5 +1,5 @@
 import Icon from '../../../components/Icon/Icon';
-
+import './ImpactBanner.css'
 const IMPACTOS = [
   {
     icon: 'leaf',

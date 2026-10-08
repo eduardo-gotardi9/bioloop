@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom';
 import Icon from '../../../components/Icon/Icon';
+import './CtaSection.css'
+
 
 function CtaSection() {
   return (

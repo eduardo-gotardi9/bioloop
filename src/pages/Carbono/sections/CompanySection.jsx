@@ -1,5 +1,5 @@
 import Icon from '../../../components/Icon/Icon';
-
+import './CompanySection.css'
 const MOTIVOS = [
   {
     icon: 'cloud',

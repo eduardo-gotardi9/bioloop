@@ -1,0 +1,50 @@
+.carbono-hero {
+    position: relative;
+    overflow: hidden;
+    min-height: 340px;
+    display: flex;
+    align-items: center;
+    padding-block: 76px 82px;
+    color: var(--color-branco);
+    background:
+        linear-gradient(90deg,
+            rgba(5, 50, 28, 0.93) 0%,
+            rgba(0, 107, 53, 0.82) 40%,
+            rgba(0, 107, 53, 0.35) 74%,
+            rgba(0, 107, 53, 0.18) 100%),
+        url('../../../assets/images/plantacao.milho.jpg') center / cover no-repeat;
+}
+
+.section-eyebrow {
+    font-family: var(--fonte-texto);
+
+}
+
+.carbono-hero-title {
+    font-family: var(--fonte-titulos);
+    max-width: 640px;
+    font-size: clamp(2.2rem, 4.4vw, 3.4rem);
+    line-height: 1.05;
+    letter-spacing: -0.03em;
+    font-weight: 700;
+    margin: 16px 0 16px;
+}
+
+.carbono-hero-subtitle {
+    max-width: 80ch;
+    font-size: 1.1rem;
+    font-family: var(--fonte-texto);
+    line-height: 1.6;
+
+}
+
+.carbono-hero-actions {
+    margin-top: 12px;
+}
+
+.carbono-hero-btn {
+    background-color: var(--color-verde-muito-claro);
+    color: var(--color-verde-institucional-escuro);
+    transition: transform 0.15s ease, box-shadow 0.15s ease, background-color 0.15s ease, border-color 0.15s ease;
+
+}
